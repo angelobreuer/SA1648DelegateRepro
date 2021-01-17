@@ -1,0 +1,11 @@
+﻿<Root>
+  <Documentation name="CancellationToken">
+    <param name="cancellationToken">
+      a cancellation token used to propagate notification that the asynchronous operation
+      should be canceled.
+    </param>
+    <exception cref="System.OperationCanceledException">
+      thrown if the cancellation token has had cancellation requested.
+    </exception>
+  </Documentation>
+</Root>
